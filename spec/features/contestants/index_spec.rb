@@ -34,7 +34,7 @@ RSpec.describe 'Contestant index page' do
         expect(page).to have_content(@gretchen.name)
         
         expect(page).to have_content(@kentaro.name)
-        save_and_open_page
+        # save_and_open_page
         expect(page).to have_content("Projects: #{@boardfit.name}, #{@upholstery_tux.name}")
       end
     end
